@@ -694,3 +694,4 @@ function textResponse(message, status = 200, extraHeaders = {}) {
   });
   return new Response(message, { status, headers });
 }
+
